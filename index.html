@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="One Eyed Man Labs - A community-driven project creating accessible mobile apps for the partially sighted. Starting with AudioTag, we're building solutions that make a real difference.">
+    <meta name="keywords" content="accessibility, mobile apps, open source, NFC, audio, Android, partially sighted, community, hobby development">
+    <meta name="author" content="One Eyed Man Labs">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="One Eyed Man Labs - Community Building Accessible Apps">
+    <meta property="og:description" content="A community-driven project creating mobile apps for the partially sighted. Join us in using spare time to make a real difference through accessible technology.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://oneeyedmanlabs.org">
+    <meta property="og:site_name" content="One Eyed Man Labs">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="One Eyed Man Labs - Community Building Accessible Apps">
+    <meta name="twitter:description" content="A community-driven project creating mobile apps for the partially sighted. Join us in using spare time to make a real difference.">
+    
+    <title>One Eyed Man Labs - Community Building Accessible Apps</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "One Eyed Man Labs",
+        "url": "https://oneeyedmanlabs.org",
+        "email": "contact@oneeyedmanlabs.org",
+        "description": "Community-driven project creating accessible mobile apps for the partially sighted",
+        "sameAs": [
+            "https://github.com/oneeyedmanlabs"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html" aria-label="One Eyed Man Labs homepage">
+                        <img src="images/logo.svg" alt="One Eyed Man Labs" width="40" height="40">
+                        <span>One Eyed Man Labs</span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" aria-current="page">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <div class="theme-switcher" role="group" aria-label="Color theme options">
+                    <button class="theme-btn theme-btn-light" data-theme="light" aria-label="Switch to light theme" title="Light theme">
+                        <span class="theme-icon">☀️</span>
+                    </button>
+                    <button class="theme-btn theme-btn-dark" data-theme="dark" aria-label="Switch to dark theme" title="Dark theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="theme-btn theme-btn-contrast" data-theme="high-contrast" aria-label="Switch to high contrast theme" title="High contrast theme">
+                        <span class="theme-icon">⚫</span>
+                    </button>
+                </div>
+                
+                <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <h1 id="hero-heading">Using Spare Time to Make a Real Difference</h1>
+                <p class="hero-subtitle">A community-driven project creating accessible mobile apps for the partially sighted. Born from personal experience, powered by passion.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">See What We've Built</a>
+                    <a href="https://coff.ee/oneeyedman" class="btn btn-secondary" target="_blank" rel="noopener">Support the Project</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Projects Section -->
+        <section id="projects" class="projects" aria-labelledby="projects-heading">
+            <div class="container">
+                <h2 id="projects-heading">What We've Built So Far</h2>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>AudioTag</h3>
+                        <div class="project-badges">
+                            <span class="badge badge-license">GPL-3.0</span>
+                            <span class="badge badge-platform">Android</span>
+                            <span class="badge badge-accessibility">Accessible</span>
+                        </div>
+                    </div>
+                    
+                    <p class="project-tagline">Turn any NFC tag into a personal audio note</p>
+                    
+                    <div class="project-content">
+                        <div class="project-description">
+                            <p>Our first project! AudioTag started when a partially sighted relative asked for something that simply didn't exist. It transforms any NFC tag into an audio note - perfect for labeling items, creating audio reminders, or building accessible environments.</p>
+                            
+                            <h4>What it does:</h4>
+                            <ul>
+                                <li>Record voice messages and link them to NFC tags</li>
+                                <li>Convert text to speech for easy audio labels</li>
+                                <li>Works completely offline - your privacy matters</li>
+                                <li>Full accessibility support with TalkBack</li>
+                                <li>Multiple themes including high contrast</li>
+                                <li>Simple backup and sharing features</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-image">
+                            <img src="images/projects/audiotag-screenshot.png" alt="AudioTag app interface showing voice recording and NFC tag management" width="300" height="600">
+                        </div>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="https://github.com/oneeyedmanlabs/audiotag/releases" class="btn btn-primary" target="_blank" rel="noopener">Download</a>
+                        <a href="https://github.com/oneeyedmanlabs/audiotag" class="btn btn-secondary" target="_blank" rel="noopener">Source Code</a>
+                        <a href="https://github.com/oneeyedmanlabs/audiotag/issues" class="btn btn-outline" target="_blank" rel="noopener">Report Issues</a>
+                        <a href="privacy.html" class="btn btn-outline">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading">About This Project</h2>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">Sometimes the best solutions come from personal experience and a bit of spare time.</p>
+                        
+                        <p>One Eyed Man Labs started when I realized what hobby developers could achieve in their spare time to make real-world impacts for the partially sighted community. As someone who is partially sighted myself, I understand the daily challenges we face with mobile technology.</p>
+                        
+                        <div class="values">
+                            <h3>What We're About</h3>
+                            <div class="values-grid">
+                                <div class="value-item">
+                                    <h4>Real Problems, Real Solutions</h4>
+                                    <p>We build apps that address actual needs from the partially sighted community, not just what we think might be useful.</p>
+                                </div>
+                                <div class="value-item">
+                                    <h4>Privacy Matters</h4>
+                                    <p>Your data stays on your device. No tracking, no data collection, no hidden agendas - just apps that work for you.</p>
+                                </div>
+                                <div class="value-item">
+                                    <h4>Community Powered</h4>
+                                    <p>This is a community effort. Share ideas, contribute code, test apps, or just spread the word - every bit helps.</p>
+                                </div>
+                                <div class="value-item">
+                                    <h4>Hobby Development</h4>
+                                    <p>Built in spare time with passion, not corporate deadlines. We focus on making things work well rather than shipping fast.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-section">
+                    <p>Want to hear the full story behind this project?</p>
+                    <a href="about.html" class="btn btn-primary">Read More About Our Journey</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section class="community" aria-labelledby="community-heading">
+            <div class="container">
+                <h2 id="community-heading">Join the Community</h2>
+                
+                <div class="community-content">
+                    <div class="community-intro">
+                        <p class="lead">Got an idea for an app that could help the partially sighted community? We'd love to hear it!</p>
+                        <p>This project thrives on community input. Whether you're a developer wanting to contribute code, someone with a brilliant app idea, or just want to test and provide feedback - there's a place for you here.</p>
+                    </div>
+                    
+                    <div class="community-grid">
+                        <div class="community-item">
+                            <h3>🧠 Share App Ideas</h3>
+                            <p>Know of a problem that needs solving? Have an idea for an app that could make daily life easier for the partially sighted? Let us know!</p>
+                            <a href="mailto:contact@oneeyedmanlabs.org?subject=App Idea" class="btn btn-outline">Submit an Idea</a>
+                        </div>
+                        
+                        <div class="community-item">
+                            <h3>💻 Contribute Code</h3>
+                            <p>Got some spare time and want to make a difference? Check out our GitHub repositories and see where you can help.</p>
+                            <a href="https://github.com/oneeyedmanlabs" class="btn btn-outline" target="_blank" rel="noopener">Browse Projects</a>
+                        </div>
+                        
+                        <div class="community-item">
+                            <h3>☕ Support the Project</h3>
+                            <p>Like what we're doing? Consider buying us a coffee to help keep this community project going.</p>
+                            <a href="https://coff.ee/oneeyedman" class="btn btn-outline" target="_blank" rel="noopener">Buy Me a Coffee</a>
+                        </div>
+                        
+                        <div class="community-item">
+                            <h3>🧪 Test & Feedback</h3>
+                            <p>Help us make our apps better by testing them and sharing your experience. Every piece of feedback helps!</p>
+                            <a href="mailto:contact@oneeyedmanlabs.org?subject=Feedback" class="btn btn-outline">Share Feedback</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 id="contact-heading">Get in Touch</h2>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>Questions, ideas, or just want to chat about accessible technology? I'd love to hear from you!</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <h3>Email</h3>
+                                <a href="mailto:contact@oneeyedmanlabs.org">contact@oneeyedmanlabs.org</a>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3>GitHub</h3>
+                                <a href="https://github.com/oneeyedmanlabs" target="_blank" rel="noopener">github.com/oneeyedmanlabs</a>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3>Support</h3>
+                                <a href="https://coff.ee/oneeyedman" target="_blank" rel="noopener">coff.ee/oneeyedman</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-cta">
+                        <h3>Let's Make Technology More Accessible</h3>
+                        <p>Whether you have an app idea, want to contribute code, need help with accessibility, or just want to share your experience - every conversation helps build a more inclusive digital world.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>One Eyed Man Labs</h3>
+                    <p>Using spare time to make technology more accessible.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Projects</h3>
+                    <ul>
+                        <li><a href="projects.html">AudioTag</a></li>
+                        <li><a href="https://github.com/oneeyedmanlabs" target="_blank" rel="noopener">All Projects</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="mailto:contact@oneeyedmanlabs.org">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="https://github.com/oneeyedmanlabs" target="_blank" rel="noopener">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 One Eyed Man Labs. All rights reserved.</p>
+                <p>A community project built with passion in spare time.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

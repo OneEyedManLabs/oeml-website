@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://oneeyedmanlabs.org/sitemap.xml
+
+# Allow crawling of all content
+Crawl-delay: 1
+
+# Specific allowances for important files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /*.html
+Allow: /*.xml
