@@ -152,8 +152,44 @@
     }
     
     /* Sections padding mobile */
-    .projects, .about, .contact {
+    .projects, .about, .contact, .project-backlog {
         padding: 3rem 0;
+    }
+    
+    /* Backlog section mobile */
+    .backlog-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .backlog-item {
+        padding: 2rem;
+    }
+    
+    .backlog-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .backlog-actions {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+    
+    .platform-tags {
+        text-align: center;
+    }
+    
+    /* Download platforms mobile */
+    .download-platforms {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .platform-option {
+        padding: 1rem;
     }
 }
 

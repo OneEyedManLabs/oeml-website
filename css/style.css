@@ -481,6 +481,64 @@ header {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
+.download-section {
+    margin-bottom: 2rem;
+}
+
+.download-section h4 {
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.download-platforms {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.platform-option {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: var(--bg-tertiary);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.platform-option:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px var(--shadow-color);
+}
+
+.platform-icon {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.platform-info {
+    flex: 1;
+}
+
+.platform-info strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.platform-info .btn {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.platform-info .btn em {
+    font-style: italic;
+    opacity: 0.8;
+    font-weight: normal;
+}
+
 .project-links {
     display: flex;
     gap: 1rem;
@@ -968,6 +1026,166 @@ header {
 
 .future-list li {
     margin-bottom: 1rem;
+}
+
+/* Project Backlog Section */
+.project-backlog {
+    padding: 5rem 0;
+    background-color: var(--bg-secondary);
+    transition: background-color 0.3s ease;
+}
+
+.project-backlog h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.backlog-intro {
+    text-align: center;
+    margin-bottom: 4rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backlog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.backlog-item {
+    background: var(--bg-tertiary);
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: 0 8px 32px var(--shadow-color);
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.backlog-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 48px var(--shadow-color);
+}
+
+.backlog-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.backlog-icon {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.backlog-header h3 {
+    flex: 1;
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-concept {
+    background-color: #e3f2fd;
+    color: #1565c0;
+}
+
+.status-research {
+    background-color: #f3e5f5;
+    color: #7b1fa2;
+}
+
+.backlog-tagline {
+    font-size: 1.125rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.backlog-details {
+    margin-bottom: 2rem;
+}
+
+.detail-section {
+    margin-bottom: 1.5rem;
+}
+
+.detail-section h4 {
+    font-size: 1rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.detail-section p {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.detail-section ul {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.detail-section li {
+    margin-bottom: 0.25rem;
+}
+
+.backlog-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.platform-tags {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.backlog-cta {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: var(--bg-tertiary);
+    border-radius: 16px;
+    border: 2px dashed var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.backlog-cta:hover {
+    border-color: var(--accent-color);
+    background: var(--bg-primary);
+}
+
+.backlog-cta h3 {
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.backlog-cta p {
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Community Section */
